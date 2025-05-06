@@ -1,5 +1,5 @@
 {
-  "name": "doc-demo1",
+  "name": "antora-document-template",
   "version": "0.0.1",
   "private": true,
   "scripts": {
