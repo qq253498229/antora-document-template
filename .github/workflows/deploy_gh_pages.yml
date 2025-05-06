@@ -22,7 +22,7 @@ jobs:
         run: |
           npm ci
           npm run build
-          ls -al
+          touch docs/.nojekyll
       - name: 部署到gh-pages
         uses: JamesIves/github-pages-deploy-action@v4
         with:
