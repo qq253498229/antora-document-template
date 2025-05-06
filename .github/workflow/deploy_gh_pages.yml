@@ -3,15 +3,6 @@ on:
   push:
     branches:
       - master
-    paths:
-      - '!**'
-      - 'modules/**'
-      - 'ui-bundle/**'
-      - '.github/**'
-      - 'antora.yml'
-      - 'antora-playbook.yml'
-      - 'package.json'
-      - 'package-lock.json'
 permissions:
   contents: write
 jobs:
