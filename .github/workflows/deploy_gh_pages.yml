@@ -1,5 +1,18 @@
 name: 部署
-on: push
+on:
+  push:
+    paths:
+      - '!**'
+      - 'modules/**'
+      - 'ui-bundle/**'
+      - '.github/**'
+      - 'antora.yml'
+      - 'antora-playbook.yml'
+      - 'package.json'
+      - 'package-lock.json'
+    paths-ignore:
+      - '.gitignore'
+      - '.npmrc'
 permissions:
   contents: write
 jobs:
