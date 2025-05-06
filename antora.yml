@@ -1,5 +1,5 @@
-name: github-actions-docs-demo1
-title: github-actions-docs-demo1
+name: antora-document-template
+title: antora-document-template
 version: '0.0.1'
 start_page: ROOT:index.adoc
 nav:

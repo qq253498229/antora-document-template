@@ -1,3 +1,3 @@
-# GitHub Pages模板
+# Antora文档模板
 
-全局替换 `github-actions-docs-demo1`。
+全局替换 `antora-document-template`。

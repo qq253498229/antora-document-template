@@ -1,6 +1,6 @@
 site:
-  title: github-actions-docs-demo1
-  start_page: github-actions-docs-demo1::index.adoc
+  title: antora-document-template
+  start_page: antora-document-template::index.adoc
 content:
   sources:
     - url: .
