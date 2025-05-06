@@ -10,9 +10,6 @@ on:
       - 'antora-playbook.yml'
       - 'package.json'
       - 'package-lock.json'
-    paths-ignore:
-      - '.gitignore'
-      - '.npmrc'
 permissions:
   contents: write
 jobs:
