@@ -1,8 +1,5 @@
 name: 部署
-on:
-  push:
-    branches:
-      - master
+on: push
 permissions:
   contents: write
 jobs:
