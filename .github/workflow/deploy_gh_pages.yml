@@ -1,6 +1,8 @@
 name: 部署
 on:
   push:
+    branches:
+      - master
     paths:
       - '!**'
       - 'modules/**'
